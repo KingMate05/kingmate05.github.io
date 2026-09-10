@@ -1,0 +1,1002 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Matéo Dayot, étudiant en informatique. Découvrez mes projets en développement web, mes compétences en programmation et mes réalisations académiques."
+    />
+    <title>Matéo Dayot - Étudiant en Informatique | Portfolio</title>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-d53d10572a0e0d37cb8d614a3f177a0c.css?vsn=d"
+    />
+    <script src="main.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    />
+  </head>
+  <body>
+    <nav class="hnav" id="hnav">
+      <a href="#">
+        <p class="hnav__title">
+          Matéo Dayot
+          <span class="hnav__title__fonction">- Étudiant en informatique</span>
+        </p>
+      </a>
+      <div class="menu-burger" id="menu-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="hnav__menu" id="nav-links">
+        <li class="hnav__menu__section">
+          <a href="#presentation" title="Présentation" id="present"
+            ><span>Présentation</span></a
+          >
+        </li>
+        <li class="hnav__menu__section">
+          <a href="#competence"><span>Compétences</span></a>
+        </li>
+        <li class="hnav__menu__section">
+          <a href="#experience"><span>Expériences</span></a>
+        </li>
+        <!-- <li class="hnav__menu__section">
+          <a href="#projet"><span>Projets</span></a>
+        </li> -->
+        <li class="hnav__menu__section">
+          <a href="#loisirs"><span>Loisirs</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header" id="presentation">
+      <div class="header__moi">
+        <h1>Bonjour, <br />je suis Matéo</h1>
+        <p class="hidden_text">& je suis étudiant en informatique appliquée</p>
+        <div class="sp">
+          <button id="sparkleButton" class="sparkle-button">
+            <span class="spark"></span>
+
+            <span class="backdrop"></span>
+            <svg
+              class="sparkle"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.187 8.096L15 5.25L15.813 8.096C16.0231 8.83114 16.4171 9.50062 16.9577 10.0413C17.4984 10.5819 18.1679 10.9759 18.903 11.186L21.75 12L18.904 12.813C18.1689 13.0231 17.4994 13.4171 16.9587 13.9577C16.4181 14.4984 16.0241 15.1679 15.814 15.903L15 18.75L14.187 15.904C13.9769 15.1689 13.5829 14.4994 13.0423 13.9587C12.5016 13.4181 11.8321 13.0241 11.097 12.814L8.25 12L11.096 11.187C11.8311 10.9769 12.5006 10.5829 13.0413 10.0423C13.5819 9.50162 13.9759 8.83214 14.186 8.097L14.187 8.096Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M6 14.25L5.741 15.285C5.59267 15.8785 5.28579 16.4206 4.85319 16.8532C4.42059 17.2858 3.87853 17.5927 3.285 17.741L2.25 18L3.285 18.259C3.87853 18.4073 4.42059 18.7142 4.85319 19.1468C5.28579 19.5794 5.59267 20.1215 5.741 20.715L6 21.75L6.259 20.715C6.40725 20.1216 6.71398 19.5796 7.14639 19.147C7.5788 18.7144 8.12065 18.4075 8.714 18.259L9.75 18L8.714 17.741C8.12065 17.5925 7.5788 17.2856 7.14639 16.853C6.71398 16.4204 6.40725 15.8784 6.259 15.285L6 14.25Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M6.5 4L6.303 4.5915C6.24777 4.75718 6.15472 4.90774 6.03123 5.03123C5.90774 5.15472 5.75718 5.24777 5.5915 5.303L5 5.5L5.5915 5.697C5.75718 5.75223 5.90774 5.84528 6.03123 5.96877C6.15472 6.09226 6.24777 6.24282 6.303 6.4085L6.5 7L6.697 6.4085C6.75223 6.24282 6.84528 6.09226 6.96877 5.96877C7.09226 5.84528 7.24282 5.75223 7.4085 5.697L8 5.5L7.4085 5.303C7.24282 5.24777 7.09226 5.15472 6.96877 5.03123C6.84528 4.90774 6.75223 4.75718 6.697 4.5915L6.5 4Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <span class="text">Voici mon CV</span>
+          </button>
+          <div class="bodydrop"></div>
+          <span aria-hidden="true" class="particle-pen">
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              class="particle"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.937 3.846L7.75 1L8.563 3.846C8.77313 4.58114 9.1671 5.25062 9.70774 5.79126C10.2484 6.3319 10.9179 6.72587 11.653 6.936L14.5 7.75L11.654 8.563C10.9189 8.77313 10.2494 9.1671 9.70874 9.70774C9.1681 10.2484 8.77413 10.9179 8.564 11.653L7.75 14.5L6.937 11.654C6.72687 10.9189 6.3329 10.2494 5.79226 9.70874C5.25162 9.1681 4.58214 8.77413 3.847 8.564L1 7.75L3.846 6.937C4.58114 6.72687 5.25062 6.3329 5.79126 5.79226C6.3319 5.25162 6.72587 4.58214 6.936 3.847L6.937 3.846Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="mes_projet">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="title">Étude</p>
+              <p class="flip_cart_content">
+                Je suis actuellement en MBA Cybersécurité & Architecture Réseau
+                à MyDigitalSchool, au sein de l’ESPL à Angers.
+              </p>
+            </div>
+            <div class="flip-card-back">
+              <p class="title">Objectif</p>
+              <p class="flip_cart_content">
+                Je suis à la recherche d’une alternance dans le cadre de mon
+                Master.
+              </p>
+            </div>
+          </div>
+          <i class="fa-solid fa-hand-back-point-up hidden-logo"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main" id="competence">
+        <div class="main__competences">
+          <span class="icon-code"></span>
+          <h2>Compétences</h2>
+        </div>
+        <p class="p_comp">
+          J'ai pu acquérir grâce à mes 3 années de faculté différentes
+          compétences en informatique. Mon parcours MIAGE m'a également permis
+          de développer des bases dans la gestion d'entreprises.
+        </p>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Programmation</span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>Python, C, C++, Java</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Développement web </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>Html5, CSS3, JavaScript, PHP, WordPress</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Développement mobile </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>Android Studio, Flutter</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Base de données </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>SQL, T-SQL</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Systèmes </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>Linux, Windows, environnement virtualisé</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Comptabilité </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Découverte du plan comptable et apprentissage du bilan et du
+                compte de résultat
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Gestion de projet </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Base en gestion de projet grâce au parcours MIAGE. <br />
+                Apprentissage du PBS, WBS et OBS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main" id="experience">
+        <div class="main__competences">
+          <span class="icon-pen"></span>
+          <h2>Expériences</h2>
+        </div>
+        <div class="container">
+          <div class="timeline"></div>
+          <div class="experience">
+            <div class="job">
+              <h2>Stage en développement mobile chez NOVE à Jarry</h2>
+              <p><i>1 mois - Janvier 2026</i></p>
+              <ul>
+                <li>
+                  Développement d’une application sur tablette pour une borne de
+                  retrait de commandes, avec identification client par QR code
+                  et connexion à l’API interne de l’entreprise.
+                </li>
+              </ul>
+            </div>
+            <div class="job">
+              <h2>
+                Emploi saisonnier en tant que stagiaire dans le cabinet de
+                géomètre expert de Basse-Terre
+              </h2>
+              <p><i>1 mois - Août 2025</i></p>
+              <ul>
+                <li>
+                  Découverte du métier de géomètre et de ses outils (station
+                  totale, GPS, drone).
+                </li>
+              </ul>
+            </div>
+            <div class="job">
+              <h2>
+                Stage en développement digital et automatisation au LEP de
+                Blanchet
+              </h2>
+              <p><i>2 mois - Mai/Juillet 2025</i></p>
+              <ul>
+                <li>
+                  Développement en Python d’un programme automatisant la
+                  création de posts pour réseaux sociaux (scraping produit,
+                  génération de contenu avec LLM locaux).
+                </li>
+              </ul>
+            </div>
+            <div class="job">
+              <h2>
+                Travail d’inventaire à la Clinique Centre MédicoSocial PITAT à
+                Basse-Terre
+              </h2>
+              <p><i>4 jours - Décembre 2024</i></p>
+              <p><i>4 jours – Décembre 2025</i></p>
+              <ul>
+                <li>Recensement du matériel médical.</li>
+                <li>
+                  Recensement et vérification du matériel médical ainsi que des
+                  stocks de consommables, avec mise à jour des bases de données
+                  et étiquetage des équipements.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <h2>
+                Stage de développeur web Chez Voilà le Topo à Questembert
+                (56230)
+              </h2>
+
+              <p><i>2 mois - Mai/Juin 2024</i></p>
+              <ul>
+                <li>
+                  Refonte d’un site internet en PHP et SCSS : développement d'un
+                  thème WordPress sur mesure.
+                </li>
+                <li>
+                  Création de maquettes de sites web avec l’outil graphique
+                  Figma.
+                </li>
+                <li>
+                  Découverte de l’entreprise Voilà le Topo et de son
+                  organisation.
+                </li>
+                <li>Intervention sur différents projets.</li>
+              </ul>
+              <div class="tags">
+                <span>#html5</span>
+                <span>#CSS3</span>
+                <span>#SCSS</span>
+                <span>#JS</span>
+                <span>#PHP</span>
+                <span>#WordPress</span>
+              </div>
+            </div>
+            <div class="job">
+              <h2>Emploi saisonnier au McDonald's de Basse-Terre (97100)</h2>
+              <p><i>1 mois - Juillet 2023</i></p>
+              <ul>
+                <li>Rôle d'équipier</li>
+                <li>Cuisson et préparation des différents aliments.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <h2>
+                Stage d’observation dans le service informatique de la
+                préfecture de la Guadeloupe à Basse-Terre (97100)
+              </h2>
+              <p><i>1 semaine - Janvier 2019</i></p>
+              <ul>
+                <li>
+                  Approche d’un réseau informatique et de son système de secours
+                  (installation, entretien et réparation des équipements
+                  connectés).
+                </li>
+                <li>Découverte de la cybersécurité des données.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <h2>
+                Stage d’observation dans une entreprise d’assistance
+                informatique aux personnes à Petit-Canal (97131)
+              </h2>
+              <p><i>1 semaine - Juin 2018</i></p>
+              <ul>
+                <li>
+                  Découverte et assistance dans l’utilisation, l’entretien et la
+                  réparation des équipements.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carrousel-body" id="projet">
+        <div class="main__competences header_carrousel">
+          <i class="fa-regular fa-globe-pointer web-icon"></i>
+          <h2>Projets</h2>
+        </div>
+        <div class="carrousel">
+          <div class="carrousel-container">
+            <ul class="slider">
+              <li
+                class="item"
+                style="
+                  background-image: url(&quot;./assets/img/SITE1.jpg&quot;);
+                "
+              >
+                <div class="content">
+                  <h2 class="title">"La montagne"</h2>
+                  <p class="description">
+                    Un paysage de montagne saisissant, baigné par la nature et
+                    sublimé par un magnifique coucher de soleil.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/Montagne/"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+              <li
+                class="item"
+                style="
+                  background-image: url(&quot;./assets/img/SITE5.jpg&quot;);
+                "
+              >
+                <div class="content">
+                  <h2 class="title">"Dico Anglais"</h2>
+                  <p class="description">
+                    Une interface simple et colorée pour enrichir ton voc
+                    anglais en quelques clics. Ajoute, révise et maîtrise chaque
+                    mot.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/MEMO_ENGLISH/"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+              <li
+                class="item"
+                style="
+                  background-image: url(&quot;./assets/img/SITE3.jpg&quot;);
+                "
+              >
+                <div class="content">
+                  <h2 class="title">"Helium"</h2>
+                  <p class="description">
+                    Une page d’accueil moderne pour un projet tech, au design
+                    épuré et résolument tourné vers le futur.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/Helium/"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+              <li
+                class="item"
+                style="
+                  background-image: url(&quot;./assets/img/SITE4.jpg&quot;);
+                "
+              >
+                <div class="content">
+                  <h2 class="title">"Gaming Campus"</h2>
+                  <p class="description">
+                    Une plateforme dédiée à l’éducation par le jeu vidéo, où
+                    passion et professionnalisme se rencontrent.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/Gaming_Campus/"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+              <li
+                class="item"
+                style="
+                  background-image: url(&quot;./assets/img/SITE2.jpg&quot;);
+                "
+              >
+                <div class="content white">
+                  <h2 class="title">"Run"</h2>
+                  <p class="description">
+                    Motivation et dépassement de soi sont à l'honneur dans ce
+                    petit site épuré, illustré par des images inspirantes de
+                    nature et de sport.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/RUN/"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+              <li
+                class="item calculatrice"
+                style="
+                  background-image: url(&quot;./assets/img/SITE6.jpg&quot;);
+                "
+              >
+                <div class="content white">
+                  <h2 class="title">"Calculatrice"</h2>
+                  <p class="description">
+                    Une petite calculatrice design, simple et efficace, avec
+                    gestion de l’historique pour retrouver facilement ses
+                    anciens calculs.
+                  </p>
+                  <a
+                    href="https://kingmate05.github.io/calculatrice"
+                    target="_blank"
+                    class="btn"
+                    >Voir le site</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <nav class="nav">
+              <ion-icon class="btn prev" name="arrow-back-outline"></ion-icon>
+              <ion-icon
+                class="btn next"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </nav>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="main" id="loisirs">
+        <div class="main__competences">
+          <span class="icon-hobby"></span>
+          <h2>Loisirs</h2>
+        </div>
+        <div class="main__loisir">
+          <div class="loisir-item">
+            <img
+              src="/assets/img/17375965309.jpg"
+              alt="Basketball"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-basket"
+                ><span class="path1"></span><span class="path2"></span
+                ><span class="path3"></span><span class="path4"></span
+                ><span class="path5"></span><span class="path6"></span
+                ><span class="path7"></span
+              ></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">Sports collectifs</div>
+            </div>
+          </div>
+
+          <div class="loisir-item">
+            <img
+              src="./assets/img/loisirs_livre.png"
+              alt="Reading"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-book"></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">Lecture (manga, roman)</div>
+            </div>
+          </div>
+
+          <div class="loisir-item">
+            <img
+              src="/assets/img/loisirs_game.png"
+              alt="Gaming"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-games"
+                ><span class="path1"></span><span class="path2"></span
+                ><span class="path3"></span><span class="path4"></span
+                ><span class="path5"></span><span class="path6"></span
+                ><span class="path7"></span><span class="path8"></span
+              ></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">Jeu vidéo</div>
+            </div>
+          </div>
+          <div class="loisir-item">
+            <img
+              src="/assets/img/vtt-technique-pedaler-freiner-01.jpeg"
+              alt="Cycling"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-bike"></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">Vélo, VTT</div>
+            </div>
+          </div>
+          <div class="loisir-item">
+            <img
+              src="/assets/img/MyPianoPop_Se-reperer-sur-un-piano.webp"
+              alt="Piano"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-piano"></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">Piano</div>
+            </div>
+          </div>
+
+          <div class="loisir-item">
+            <img
+              src="./assets/img/IMG-20240309-WA0010.jpg"
+              alt="Reading"
+              class="main__loisir__photo"
+            />
+            <div class="loisir-details">
+              <span class="icon-voilier"
+                ><span class="path1"></span><span class="path2"></span
+                ><span class="path3"></span><span class="path4"></span
+                ><span class="path5"></span><span class="path6"></span
+                ><span class="path7"></span><span class="path8"></span
+                ><span class="path9"></span><span class="path10"></span
+                ><span class="path11"></span><span class="path12"></span
+                ><span class="path13"></span><span class="path14"></span
+              ></span>
+              <div class="loisir-bar"></div>
+              <div class="loisir-text">
+                Sports nautiques <br />(paddle, surf, voile)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="aside"></aside>
+
+    <footer class="main">
+      <div class="footer_div">
+        <p>©2026 Matéo Dayot</p>
+        <button id="scrollToTopButton" class="button_one">
+          <svg class="svgIcon" viewBox="0 0 384 512">
+            <path
+              d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
