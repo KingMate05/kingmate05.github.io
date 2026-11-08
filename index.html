@@ -2,8 +2,12 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-<link rel="shortcut icon" href="/favicon.png" type="image/png" />
-<link rel="apple-touch-icon" href="/favicon.png" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/favicon-192x192.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Portfolio de Matéo Dayot, étudiant en informatique. Découvrez mes projets en développement web, mes compétences en programmation et mes réalisations académiques."
@@ -79,7 +83,7 @@
     <header class="header" id="presentation">
       <div class="header__moi">
         <h1>Bonjour, <br />je suis Matéo</h1>
-        <p class="hidden_text">& je suis étudiant en informatique appliquée</p>
+        <p class="hidden_text">& je  suis étudiant en cybersécurité et réseaux</p>
         <div class="sp">
           <button id="sparkleButton" class="sparkle-button">
             <span class="spark"></span>
@@ -430,14 +434,13 @@
           <h2>Compétences</h2>
         </div>
         <p class="p_comp">
-          J'ai pu acquérir grâce à mes 3 années de faculté différentes
-          compétences en informatique. Mon parcours MIAGE m'a également permis
-          de développer des bases dans la gestion d'entreprises.
+          Mes trois années de licence m’ont donné des bases solides en informatique, et mon parcours MIAGE y a ajouté une vraie compréhension du fonctionnement des entreprises. Aujourd’hui, je mets ces acquis au service de ma spécialisation en cybersécurité et en réseaux.
         </p>
+        
         <div class="accordion">
-          <div class="accordion-item">
+           <div class="accordion-item">
             <button class="accordion-header" onclick="toggleAccordion(this)">
-              <span>Programmation</span>
+              <span> Programmation </span>
               <div tabindex="0" class="plusButton">
                 <svg
                   class="plusIcon"
@@ -453,9 +456,64 @@
               </div>
             </button>
             <div class="accordion-content">
-              <p>Python, C, C++, Java</p>
+              <p>
+                Python, C, C++, Java
+              </p>
             </div>
           </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Cybersécurité </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Labo personnel isolé (attaque / défense) sous Kali Linux. <br />
+                Reconnaissance réseau, énumération de services, audit de configuration. <br />
+                Découverte et analyse d’un environnement Active Directory.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">
+              <span> Infrastructure &amp; virtualisation </span>
+              <div tabindex="0" class="plusButton">
+                <svg
+                  class="plusIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <g mask="url(#mask0_21_345)">
+                    <path
+                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Proxmox VE, VirtualBox <br />
+                Windows Server, Active Directory <br />
+                Linux (Debian)
+              </p>
+            </div>
+          </div>
+
+
           <div class="accordion-item">
             <button class="accordion-header" onclick="toggleAccordion(this)">
               <span> Développement web </span>
@@ -474,9 +532,12 @@
               </div>
             </button>
             <div class="accordion-content">
-              <p>Html5, CSS3, JavaScript, PHP, WordPress</p>
+              <p>
+                Html5, CSS3, JavaScript, PHP, WordPress
+              </p>
             </div>
           </div>
+
           <div class="accordion-item">
             <button class="accordion-header" onclick="toggleAccordion(this)">
               <span> Développement mobile </span>
@@ -495,7 +556,9 @@
               </div>
             </button>
             <div class="accordion-content">
-              <p>Android Studio, Flutter</p>
+              <p>
+                Android Studio, Flutter
+              </p>
             </div>
           </div>
 
@@ -517,28 +580,9 @@
               </div>
             </button>
             <div class="accordion-content">
-              <p>SQL, T-SQL</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-header" onclick="toggleAccordion(this)">
-              <span> Systèmes </span>
-              <div tabindex="0" class="plusButton">
-                <svg
-                  class="plusIcon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 30 30"
-                >
-                  <g mask="url(#mask0_21_345)">
-                    <path
-                      d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"
-                    ></path>
-                  </g>
-                </svg>
-              </div>
-            </button>
-            <div class="accordion-content">
-              <p>Linux, Windows, environnement virtualisé</p>
+              <p>
+                SQL, T-SQL
+              </p>
             </div>
           </div>
 
@@ -591,7 +635,9 @@
               </p>
             </div>
           </div>
+
         </div>
+
       </div>
       <div class="main" id="experience">
         <div class="main__competences">
@@ -877,7 +923,7 @@
         <div class="main__loisir">
           <div class="loisir-item">
             <img
-              src="/assets/img/17375965309.jpg"
+              src="/assets/img/sport-equipe.jpg"
               alt="Basketball"
               class="main__loisir__photo"
             />
